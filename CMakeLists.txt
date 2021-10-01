@@ -3,4 +3,4 @@ project(pokedex C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(pokedex defs.h node.h node.c linkedList.h linkedList.c info.h info.c type.h type.c pokemon.h pokemon.c ./test/test.h ./test/test.c main.c)
+add_executable(pokedex defs.h linkedList/node.h linkedList/node.c linkedList/linkedList.h linkedList/linkedList.c pokemon/info.h pokemon/info.c pokemon/type.h pokemon/type.c pokemon/pokemon.h pokemon/pokemon.c test/test.h test/test.c main.c)

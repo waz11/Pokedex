@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 #include "test/test.h"
-#include "type.h"
+#include "pokemon/type.h"
 
 /* commands:
-gcc -g -Wall defs.h node.h node.c linkedList.h linkedList.c info.h info.c type.h type.c pokemon.h pokemon.c ./test/test.h ./test/test.c main.c -o ./test/test
+gcc -g -Wall defs.h linkedList/node.h linkedList/node.c linkedList/linkedList.h linkedList/linkedList.c pokemon/info.h pokemon/info.c pokemon/type.h pokemon/type.c pokemon/pokemon.h pokemon/pokemon.c test/test.h test/test.c main.c -o test/test
 valgrind --tool=memcheck --leak-check=yes ./test/test
  */
 

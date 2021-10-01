@@ -1,10 +1,11 @@
 #include "../test/test.h"
+
+#include "../linkedList/linkedList.h"
+#include "../linkedList/node.h"
 #include "../test/intFunctions.h"
-#include "../node.h"
-#include "../linkedList.h"
-#include "../info.h"
-#include "../type.h"
-#include "../pokemon.h"
+#include "../pokemon/info.h"
+#include "../pokemon/type.h"
+#include "../pokemon/pokemon.h"
 
 
 void test_node(){
